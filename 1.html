@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+ 
+
+ <!--OP-->
+ <div class="shutter">
+  <img src="image/welcome.PNG" alt="ロゴ" class="logo"/>
+</div>
+<div class="img"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>original</title>
+    <link
+ rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"
+ />
+    <link rel="stylesheet" href="1.css">
+>
+    <!-- JavaScriptファイルの読み込み -->
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"
+  ></script>
+    <script defer src="1.js"></script>
+</head>
+
+    <!--bodyここから-->
+<body>
+   
+    <header>
+      <div class="head-wrap">
+        <a class="top-link" href="/"><img src="image/seyana.jpg" /></a>
+      </div>
+      <nav class="nav-menu">
+        <a class="nav-link" href="#top">Top</a>
+        <a class="nav-link" href="#profile">Profile</a>
+        <a class="nav-link" href="#favorite">Favorite</a>
+        <a class="nav-link" href="#video">Video</a>
+      </nav>
+    </header>
+    <section class="top" id="top">
+    <div class="swiper-container photo-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="image/IMG_doukutu.jpg" /></div>
+          <div class="swiper-slide"><img src="image/IMG_aoriika.jpg" /></div>
+          <div class="swiper-slide"><img src="image/IMG_hanataba.jpg" /></div>
+          <div class="swiper-slide"><img src="image/IMG_koi.jpg" /></div>
+        </div>
+        <h1 class="top-title">Welcome to my website!
+        </h1>
+      </div>
+    </section>
+      <section class="profile" id="profile">
+        <h2 class="section-title multi">- profile -</h2>
+        <div class="container">
+          <img class="profile-image" src="image/seyana.jpg" alt="profile-photo" />
+          <div class="profile-text">
+            <p>「なんでも言うこと聞いてくれるトクメイチャン」です。<br>
+              （画像はココアシガレットPさんの某動画のトレス）<br>
+              学校では何でも屋をしています。発表会で使うスライド作り、スライドの操作、動画作成、作文添削、ポスターやマニュアルの作成etc...ちょっとした報酬を貰う代わりに依頼者に頼まれたことをこなしています。しっかり対価を求めるタイプのパシリ。依頼者からの報酬（
+              チョコレート菓子やジョジョのグッズ）を貰うことを生きがいにしていたら最近”社畜”と呼ばれ始めました。なんで？<br>
+              得意なことは動画編集。簡単な解説動画から音MADまで色々作ります。日々勉強中。他にも趣味として、裁縫・刺繡・絵・写真撮影・読書・文字書き・台本作りなどなど。多趣味でやれることが豊富なのがちょっとした自慢だったりします。
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="favorite" id="favorite">
+        <h2 class="section-title multi">- Favorite -</h2>
+        <div class="container">
+          <div class="item">
+            <h3 class="item-title">奈良の鹿</h3>
+            <img class="cover" src="image/IMG_sika.HEIC" />
+            <p>
+            奈良公園の近くで撮った鹿の親子の写真です。鹿の子供の毛繕いをする親鹿が可愛いので気に入っています。
+            </p>
+          </div>
+          <div class="item">
+            <h3 class="item-title">江ノ島</h3>
+            <img class="cover" src="image/IMG_enosima.HEIC" />
+            <p>
+            中学生の頃、江ノ島へ旅行した際に撮った写真です。空から沈む太陽と黒く影の落ちた岩場のコントラストが綺麗でとてもお気に入りです。
+            </p>
+          </div>
+          <div class="item">
+            <h3 class="item-title">ハリーポッター</h3>
+            <img class="cover" src="image/haripota.2.jpg" />
+            <p>東京に新しくできたハリーポッターの施設へ行った際に撮ったものです。ハリーがホグワーツからの入学許可の手紙を受け取るシーンが忠実に再現されています。他にも映画の舞台裏や校長室などを見学でき、とてもいい体験ができました。</p>
+          
+          </div>
+        </div>
+      </section>
+      <section class="section-image">
+        <img src="image/IMG_kaeru.jpg" />
+      </section>
+
+      <section class="video" id="video">
+        <h2 class="section-title multi">- Video -</h2>
+        <div class="container">
+          <div class="video-container swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="about">
+                  <p>
+                    これは、私がつい最近友人の頼みで作成した動画です。犬の訓練についての研究発表で、研究に協力してくださったスペシャルサンクスの皆さんをこの動画で紹介しました。さながら映画のエンディングですね。
+                    この動画は周りの反応も良くて嬉しかったです。
+                  </p>
+                </div>
+                <!-- 動画プレイヤー -->
+                <video id="douga" src="image/flos.MOV" controls></video>
+              </div>
+              <div class="swiper-slide">
+                <div class="about">
+                  <p>
+                    こちらは「キミガシネ」というゲームに登場するキャラクターのファンビデオになります。私の友人がハマっていた頃に編集して作りました。音ハメが過去一上手く出来たので何気に気に入ってますね。いつかリメイクしてみたい。
+                  </p>
+                </div>
+                <!-- 動画プレイヤー -->
+                <video id="douga" src="image/kimi.MOV" controls></video>
+              </div>
+              <div class="swiper-slide">
+                <div class="about">
+                  <p>
+                    暇つぶしに作ったジョジョの音MADもどきです。ジョジョ5部のボスと呼ばれる存在をネタにした、ただそれだけの動画。音ハメがあまり上手くいってないのでいつか直したいところ。内容がないよう.....
+                  </p>
+                </div>
+                <!-- 動画プレイヤー -->
+                <video id="douga" src="image/boss.MOV" controls></video>
+              </div>
+              <div class="swiper-slide">
+                <div class="about">
+                  <p>
+                    ワンピースにものすごくハマっていた時期に、途中まで作ってやめちゃった動画ですね。コラさんとローが推しでした。
+                    それはそうとして動画を最後まで完成できるだけの根気を身につけたい。せめて初めのサビまでは進めるべきだったと思うよ高２の私。
+                  </p>
+                </div>
+                <!-- 動画プレイヤー -->
+                <video id="douga" src="image/low.MOV" controls></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>&copy; 2023 Itnav</footer>
+  </body>
+  </html>
+  
